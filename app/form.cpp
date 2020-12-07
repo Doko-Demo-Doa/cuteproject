@@ -8,9 +8,18 @@
 
 using namespace std;
 
+template <typename T>
+
+T myMax(T x, T y)
+{
+    return (x > y) ? x : y;
+}
+
 Form::Form(QWidget *parent) : QWidget(parent),
     ui(new Ui::Form)
 {
+    cout << myMax(2, 3) << endl;
+
     ui->setupUi(this);
     adder = new MyLib();
     subtr = new OtherLib();

@@ -55,6 +55,8 @@ Note: Shall also work with other Qt or MSVC versions ..
 
 Note: On windows use ```jom``` instead of ```make```
 
+## Visual Studio Code integration
+
 ## Versioning
 The cuteproject app uses semantic versioning.
 
