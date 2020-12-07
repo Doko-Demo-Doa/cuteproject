@@ -20,4 +20,3 @@ debug
 pkgs/deb/app/version
 Makefile.Debug
 Makefile.Release
-.vscode/
